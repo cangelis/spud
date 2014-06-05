@@ -1,4 +1,4 @@
-# Spud : Make template development easy
+# Spud : Template development made easy
 
 You are developing an HTML template that contains hundreds of pages and you need to modify the footer from all of them one by one.
 Very bad yeah? You don't need to modify hundreds of pages with Spud. Spud is simply a template engine tool that makes your template development easier.
