@@ -1,0 +1,8 @@
+<?php
+require "../vendor/autoload.php";
+use Spud\BuildCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application("Spud", "1.0.0");
+$application->add(new BuildCommand());
+$application->run();
