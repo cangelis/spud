@@ -1,4 +1,4 @@
-# Spud : Template development made easy
+# Spud : Make template development easy
 
 You are developing an HTML template that contains hundreds of pages and you need to modify the footer from all of them one by one.
 Very bad yeah? You don't need to modify hundreds of pages with Spud. Spud is simply a template engine tool that makes your template development easier.
@@ -6,7 +6,13 @@ Very bad yeah? You don't need to modify hundreds of pages with Spud. Spud is sim
 ## Installation
 
 Spud is developed with PHP so you need PHP (at least 5.4) to be installed on your computer.
-Then, [download](http://www.cangelis.com/spud.phar) `spud.phar` and run `spud.phar --version` to see if it works.
+Then, [download](http://www.cangelis.com/spud.phar) `spud.phar` and run:
+
+ `$ chmod +x spud.phar`
+
+ `$ ./spud.phar --version`
+
+ to see if it works.
 
 ## An example
 
@@ -66,6 +72,7 @@ Command line usage:
 `php spud.phar build [--input[="..."]] [--output[="..."]]`
 
 `input`: the folder that will be compiled.
+
 `output`: the folder in which contains the compiled files.
 
 ## Contribution
