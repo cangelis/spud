@@ -69,7 +69,7 @@ Spud has two options. You can `@include` a file or `@extends` a layout. You can 
 
 Command line usage:
 
-`php spud.phar build [--input[="..."]] [--output[="..."]]`
+`spud.phar build [--input[="..."]] [--output[="..."]]`
 
 `input`: the folder that will be compiled.
 
